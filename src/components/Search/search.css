@@ -1,0 +1,28 @@
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.search{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding-left: 20px;
+    margin-left: 5vw;
+}
+.search:focus{
+    outline: none;
+}
+h1{
+    margin-left: 50px;
+    animation: heading 5s infinite linear;
+}
+@keyframes heading {
+    0%{color: rgb(26, 173, 231);}
+    25%{color: aqua;}
+    50%{color: rgb(53, 230, 91);}
+    75%{color: chartreuse;}
+    100%{color: rgb(233, 51, 38);}
+}

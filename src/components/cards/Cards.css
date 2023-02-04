@@ -1,0 +1,74 @@
+.outer_container{
+    width: 100vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card_conatainer{
+    width: 18%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    /* border-radius: 20px; */
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+.card_conatainer:hover{
+    transform: scale(1.04);
+    background-color: beige;
+    padding: 10px;
+    /* color: #fff; */
+    /* font-size: larger; */
+}
+
+.nameDiv{
+    margin-bottom: 5px;
+    padding: 15 px;
+    text-align: center;
+    width: 15vw;
+    height: 8vh;
+}
+.nameDiv h3{
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+.nameDiv h3:hover{
+    font-size: 1.35vw;
+    font-weight: 500;
+}
+.card_conatainer img{
+    width: 13vw;
+    height: 27vh;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: blueviolet;
+    transition: 0.5s;
+    
+}
+.card_conatainer img:hover{
+    animation: photo 0.5s linear; 
+    width: 14vw;
+    height: 30vh;
+    transition:  0.5s;
+ } 
+ @keyframes photo {
+    0% {
+        width: 13.3vw;
+        height: 27.5vh;
+    } 
+    50% {
+        width: 13.7vw;
+        height: 28vh;
+    }
+    100% {
+        width: 14vw;
+        height: 30vh;
+    }
+
+ } 
